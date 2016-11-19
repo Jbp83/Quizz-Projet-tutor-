@@ -1,0 +1,49 @@
+--------------------------------
+            Objectifs:
+--------------------------------
+
+- Compte Utilisateur
+
+- Gérer : 
+	-> Questions
+	-> Questionnaires
+
+- Création Groupe
+
+- Session
+
+- Stats
+
+- Multiplateforme
+
+--------------------------------
+         Bibliographie :
+--------------------------------
+
+- Cours : C#, Android, Web, UWP
+
+- Documentation officiel Android / C# / IOS
+
+- Sites des applidcations étudiés ( Quizlet, etc )
+
+
+--------------------------------
+             Mockup:
+--------------------------------
+
+- Identification (UNS) :
+		-> Id/Passwd	    | -> Securité	
+			-> Id Etud. | 
+
+- Page d'acceuil :
+
+--------------------------------
+      Idées et reflexions :
+--------------------------------
+
+
+
+Paramétrage : Mettre en place le paramétrage du questionnaire et des questions separement mais faire en sorte que le paramétrage de la question soit prioritaire.
+
+
+
