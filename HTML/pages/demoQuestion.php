@@ -1,41 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta charset="utf-8" />	
-	<title></title>
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="../css/Creation_Question.css"/>
+<?php include("../includes/header.php");?>
 </head>
 
 <body>
-	<header id="header">
-		<!-- Fixed navbar -->
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-					</button>
 
-					<a class="navbar-brand" href="#">COUCOU</a>
-				</div>
-
-				<div id="navbar" class="navbar-collapse collapse navigationLink">
-					<ul class="nav navbar-nav">
-						<li><a href="#">Accueil</a></li>
-					</ul>
-				</div><!--/.nav-collapse -->
-			</div><!--container-->
-		</nav>
-	</header>
-	
-
-	<div class="container" style="margin-top:50px;">
+	<div id="conteneur">
 		
-		<div>
+		 <div id = text>
+		 	<br>
 			<h1>Titre du questionnaire :</h1>
 
 			<div class="question">
@@ -82,6 +57,8 @@
 
 			<input type="submit" name="" value="Ajouter la question" class="btn btn-success btn-block btnAjouterQuestion">
 
+			<br><br>
+
 		</div>
 
 
@@ -106,17 +83,3 @@
 		});
 	});
 </script>
-
-<style type="text/css">
-	.typeReponseBlock{
-		border-right :1px solid #ddd;
-		border-left :1px solid #ddd;
-		border-bottom :1px solid #ddd;
-		padding:15px;
-		display: none; /*On cache tous les div avec la class typeReponseBlock.*/
-	}
-
-	.btnAjouterQuestion{
-		margin-top:20px;
-	}
-</style>
