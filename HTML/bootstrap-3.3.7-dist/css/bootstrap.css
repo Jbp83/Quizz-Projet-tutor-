@@ -1083,7 +1083,7 @@ th {
 }
 html {
   font-size: 10px;
-
+  height: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
@@ -1093,6 +1093,7 @@ body {
   color: #333;
   background-color:transparent;
        background-image: url('../../images/background.png');
+  height: 100%;
 }
 input,
 button,
