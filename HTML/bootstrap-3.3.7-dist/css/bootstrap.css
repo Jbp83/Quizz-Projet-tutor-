@@ -1092,8 +1092,12 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color:transparent;
-       background-image: url('../../images/background.png');
   height: 100%;
+  margin:0;
+  padding:0;
+  background: url('../../images/background.png') no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
 }
 input,
 button,
